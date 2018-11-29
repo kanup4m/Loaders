@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #7f8c8d;
+}
+p {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 200;
+	padding: 1rem;
+}
+.loader {
+	border: 3px solid;
+	margin-top: 250px;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+	border-top-color: white;
+	border-bottom-color:white;
+	border-right-color: #7f8c8d;
+	border-left-color: #7f8c8d;
+	animation: loader 1.5s infinite;
+}
+@keyframes loader {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
